@@ -1,0 +1,36 @@
+.new-post {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.all-posts {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin: 20px;
+}
+
+
+.post {
+    border: 0.1px solid gray;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin: 5px 20px;
+}
+
+.content {
+    font-size: 15px;
+}
+
+.username {
+    font-size: 20px;
+}
+
+.date {
+    color: gray;
+    font-size: 15px; 
+}
